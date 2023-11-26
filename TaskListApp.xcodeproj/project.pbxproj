@@ -14,6 +14,8 @@
 		061F13212B0FBD97003F2287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061F13202B0FBD97003F2287 /* Assets.xcassets */; };
 		061F13242B0FBD97003F2287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061F13222B0FBD97003F2287 /* LaunchScreen.storyboard */; };
 		061F132E2B0FD045003F2287 /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061F132D2B0FD045003F2287 /* FilledButtonFactory.swift */; };
+		7B79CD052B11BD760000E5DE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79CD042B11BD760000E5DE /* StorageManager.swift */; };
+		7B7B40372B1275AD00BDEF0F /* TaskStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B40362B1275AD00BDEF0F /* TaskStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		061F13232B0FBD97003F2287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061F13252B0FBD97003F2287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		061F132D2B0FD045003F2287 /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
+		7B79CD042B11BD760000E5DE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		7B7B40362B1275AD00BDEF0F /* TaskStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				061F13142B0FBD94003F2287 /* AppDelegate.swift */,
 				061F13162B0FBD94003F2287 /* SceneDelegate.swift */,
+				7B7B40362B1275AD00BDEF0F /* TaskStruct.swift */,
+				7B79CD042B11BD760000E5DE /* StorageManager.swift */,
 				061F13182B0FBD94003F2287 /* TaskListViewController.swift */,
 				061F132D2B0FD045003F2287 /* FilledButtonFactory.swift */,
 				061F13202B0FBD97003F2287 /* Assets.xcassets */,
@@ -143,8 +149,10 @@
 				061F131F2B0FBD94003F2287 /* TaskListApp.xcdatamodeld in Sources */,
 				061F13192B0FBD94003F2287 /* TaskListViewController.swift in Sources */,
 				061F132E2B0FD045003F2287 /* FilledButtonFactory.swift in Sources */,
+				7B79CD052B11BD760000E5DE /* StorageManager.swift in Sources */,
 				061F13152B0FBD94003F2287 /* AppDelegate.swift in Sources */,
 				061F13172B0FBD94003F2287 /* SceneDelegate.swift in Sources */,
+				7B7B40372B1275AD00BDEF0F /* TaskStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
